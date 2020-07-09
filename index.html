@@ -10,22 +10,35 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <body>
+   <!-- <nav class="navbar">
+        <a class="nav-link" href="#projects" style="color:rgb(16, 16, 16);">Projects</a>
+        <a class="nav-link" href="#journey" style="color:rgb(16, 16, 16);">My Journey</a>
+        <a class="nav-link" href="#about" style="color:rgb(16, 16, 16);">More About Me</a>
+    </nav>-->
+
     <div class="jumbotron jumbotron-fluid" style="height: 100vh; background-color:rgb(255, 255, 255); margin-bottom:0px;">
       <div class="container">
-        <h1 class="display-4">Hey there!</h1>
-        <p class="lead">Welcome to my space.</p>
+          <div class="row">
+            <div class="col">
+              <h1 class="display-4">Hey there!</h1>
+                <p class="lead">Welcome to my space.</p>
+            </div>
+            <div class="col">
+              <img src="Images/Emoji_crop.png" class="img-responsive" alt="" loading="lazy" style="padding-top:100px;padding-left:100px;">
+            </div>
+          </div>
       </div>
     </div>
 
-    <div class="jumbotron jumbotron-fluid" style="background-color:rgb(0, 0, 0); margin-bottom:0px;">
+    <div class="jumbotron jumbotron-fluid" id="projects" style="background-color:rgb(0, 0, 0); margin-bottom:0px;">
         <div class="container" style="color:rgb(9, 214, 227);">
             <h1 class="display-5">Projects</h1>
             <br>
             <br>
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="card hvr-bob" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
-                        <div class="card-body">
+                    <div class="card slideanim" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
+                        <div class="card-body hvr-bob">
                             <h5 class="card-title">Remote Weather Assistant using LoRa Network
                                 <a href="https://github.com/shimonaprabhu" target="_blank" data-toggle="tooltip" data-placement="top" title="Get In Touch With Me!">
                                     <img src="Images/Fork.png" width="30" height="30" alt="" loading="lazy">
@@ -43,8 +56,8 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <div class="card hvr-bob" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
-                        <div class="card-body">
+                    <div class="card slideanim" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
+                        <div class="card-body hvr-bob">
                             <h5 class="card-title">Remote Weather Assistant using LoRa Network
                                 <a href="https://github.com/shimonaprabhu" target="_blank" data-toggle="tooltip" data-placement="top" title="Get In Touch With Me!">
                                     <img src="Images/Fork.png" width="30" height="30" alt="" loading="lazy">
@@ -62,8 +75,8 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <div class="card hvr-bob" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
-                        <div class="card-body">
+                    <div class="card slideanim" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
+                        <div class="card-body hvr-bob">
                             <h5 class="card-title">Remote Weather Assistant using LoRa Network
                                 <a href="https://github.com/shimonaprabhu" target="_blank" data-toggle="tooltip" data-placement="top" title="Get In Touch With Me!">
                                     <img src="Images/Fork.png" width="30" height="30" alt="" loading="lazy">
@@ -81,8 +94,8 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <div class="card hvr-bob" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
-                        <div class="card-body">
+                    <div class="card slideanim" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
+                        <div class="card-body hvr-bob">
                             <h5 class="card-title">Remote Weather Assistant using LoRa Network
                                 <a href="https://github.com/shimonaprabhu" target="_blank" data-toggle="tooltip" data-placement="top" title="Get In Touch With Me!">
                                     <img src="Images/Fork.png" width="30" height="30" alt="" loading="lazy">
@@ -100,8 +113,8 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <div class="card hvr-bob" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
-                        <div class="card-body">
+                    <div class="card slideanim" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
+                        <div class="card-body hvr-bob">
                             <h5 class="card-title">Remote Weather Assistant using LoRa Network
                                 <a href="https://github.com/shimonaprabhu" target="_blank" data-toggle="tooltip" data-placement="top" title="Get In Touch With Me!">
                                     <img src="Images/Fork.png" width="30" height="30" alt="" loading="lazy">
@@ -122,7 +135,7 @@
         </div>
     </div>
 
-    <div class="jumbotron jumbotron-fluid" style="background-color:rgb(255, 255, 255); margin-bottom:0px;">
+    <div class="jumbotron jumbotron-fluid" id="journey" style="background-color:rgb(255, 255, 255); margin-bottom:0px;">
         <div class="container">
 
     <div class="page-header">
@@ -133,7 +146,7 @@
 
         <li>
           <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-          <div class="timeline-panel">
+          <div class="timeline-panel slideanim">
             <div class="timeline-heading">
               <h4 class="timeline-title">Network Consulting Engineer, Cisco</h4>
               <p class="text-muted">As a Consulting Engineer, I am continually engaged with my customers to help optimize their networks.
@@ -146,7 +159,7 @@
 
         <li class="timeline-inverted">
             <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-          <div class="timeline-panel">
+          <div class="timeline-panel slideanim">
             <div class="timeline-heading">
               <h4 class="timeline-title">Network Consulting Engineer, Cisco</h4>
               <p class="text-muted">As a Consulting Engineer, I am continually engaged with my customers to help optimize their networks.
@@ -159,7 +172,7 @@
 
         <li>
           <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-          <div class="timeline-panel">
+          <div class="timeline-panel slideanim">
             <div class="timeline-heading">
               <h4 class="timeline-title">Network Consulting Engineer, Cisco</h4>
               <p class="text-muted">As a Consulting Engineer, I am continually engaged with my customers to help optimize their networks.
@@ -172,7 +185,7 @@
 
         <li class="timeline-inverted">
             <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-          <div class="timeline-panel">
+          <div class="timeline-panel slideanim">
             <div class="timeline-heading">
               <h4 class="timeline-title">Network Consulting Engineer, Cisco</h4>
               <p class="text-muted">As a Consulting Engineer, I am continually engaged with my customers to help optimize their networks.
@@ -185,7 +198,7 @@
 
         <li>
           <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-          <div class="timeline-panel">
+          <div class="timeline-panel slideanim">
             <div class="timeline-heading">
               <h4 class="timeline-title">Network Consulting Engineer, Cisco</h4>
               <p class="text-muted">As a Consulting Engineer, I am continually engaged with my customers to help optimize their networks.
@@ -198,7 +211,7 @@
 
         <li class="timeline-inverted">
             <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-          <div class="timeline-panel">
+          <div class="timeline-panel slideanim">
             <div class="timeline-heading">
               <h4 class="timeline-title">Network Consulting Engineer, Cisco</h4>
               <p class="text-muted">As a Consulting Engineer, I am continually engaged with my customers to help optimize their networks.
@@ -214,10 +227,76 @@
         </div>
     </div>
 
-    <div class="jumbotron jumbotron-fluid" style="height: 100vh; background-color:rgb(0, 0, 0); margin-bottom:0px;">
-      <div class="container">
-        <h1 class="display-4">Hey there!</h1>
-        <p class="lead">Welcome to my space.</p>
+
+    <div class="jumbotron jumbotron-fluid" id="about"  style="height: 100vh; background-color:rgb(0, 0, 0); margin-bottom:0px;">
+      <div class="container" style="color:rgb(9, 214, 227);">
+        <h1 class="display-4">More about me</h1>
+        <br>
+          <br>
+
+
+          <div class="container text-center my-3">
+
+            <div class="row mx-auto my-auto">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox" >
+                        <div class="carousel-item active" >
+                            <div class="col-md-4">
+                                <div class="card card-body" style="background-color:rgb(16, 16, 16);">
+                                    <p style="width:250px;height:250px;">Stuff</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body" style="background-color:rgb(16, 16, 16);">
+                                    <p style="width:250px;height:250px;">Stuff</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body" style="background-color:rgb(16, 16, 16);">
+                                    <p style="width:250px;height:250px;">Stuff</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body" style="background-color:rgb(16, 16, 16);">
+                                    <p style="width:250px;height:250px;">Stuff</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body" style="background-color:rgb(16, 16, 16);">
+                                    <p style="width:250px;height:250px;">Stuff</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="card card-body" style="background-color:rgb(16, 16, 16);">
+                                    <p style="width:250px;height:250px;">Stuff</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
       </div>
     </div>
 
@@ -233,13 +312,13 @@
 
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-item nav-link active" href="https://github.com/shimonaprabhu" target="_blank" data-toggle="tooltip" data-placement="top" title="Fine Me On GitHub!">
+                    <a class="nav-item nav-link active" href="https://github.com/shimonaprabhu" target="_blank" data-toggle="tooltip" data-placement="top" title="Find Me On GitHub!">
                         <img src="Images/GitHub_logo.png" width="30" height="30" alt="" loading="lazy">
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-item nav-link" href="https://www.linkedin.com/in/shimona-prabhu-227b22106/" target="_blank" data-toggle="tooltip" data-placement="top" title="Fine Me On LinkedIn!">
+                    <a class="nav-item nav-link" href="https://www.linkedin.com/in/shimona-prabhu-227b22106/" target="_blank" data-toggle="tooltip" data-placement="top" title="Find Me On LinkedIn!">
                         <img src="Images/LinkedIn_logo.png" width="30" height="30" alt="" loading="lazy">
                     </a>
                 </li>
@@ -255,4 +334,7 @@
     </nav>
 
 </body>
+
+<script src="float-panel.js"></script>
+
 </html>
