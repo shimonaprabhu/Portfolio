@@ -193,20 +193,9 @@ padding-left:90px;
   left: -14px;
   right: auto;
 }
-.timeline-badge.primary {
-  background-color: #2e6da4 !important;
-}
-.timeline-badge.success {
-  background-color: #3f903f !important;
-}
-.timeline-badge.warning {
-  background-color: #f0ad4e !important;
-}
-.timeline-badge.danger {
-  background-color: #d9534f !important;
-}
+
 .timeline-badge.info {
-  background-color: #5bc0de !important;
+  background-color: rgb(59, 229, 245) !important;
 }
 .timeline-title {
   margin-top: 0;
@@ -282,4 +271,41 @@ padding-left:90px;
 .carousel-inner .carousel-item-right,
 .carousel-inner .carousel-item-left{
   transform: translateX(0);
+}
+
+.container_outer {
+  position: relative;
+
+}
+
+.image_in {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(255,255,255);
+}
+
+.container_outer:hover .overlay {
+  opacity: 1;
+}
+
+.text_out {
+   position:relative;
+   width:100%;
+   height:100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
