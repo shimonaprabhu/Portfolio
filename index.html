@@ -10,22 +10,30 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <body>
-   <!-- <nav class="navbar">
-        <a class="nav-link" href="#projects" style="color:rgb(16, 16, 16);">Projects</a>
-        <a class="nav-link" href="#journey" style="color:rgb(16, 16, 16);">My Journey</a>
-        <a class="nav-link" href="#about" style="color:rgb(16, 16, 16);">More About Me</a>
-    </nav>-->
+<!--<nav class="navbar navbar-dark">-->
+<!--        <a class="nav-link" href="#projects" style="color:rgb(16, 16, 16);">Projects</a>-->
+<!--        <a class="nav-link" href="#journey" style="color:rgb(16, 16, 16);">My Journey</a>-->
+<!--        <a class="nav-link" href="#tech" style="color:rgb(16, 16, 16);">Technical Repertoire</a>-->
+<!--        <a class="nav-link" href="#about" style="color:rgb(16, 16, 16);">More About Me</a>-->
+<!--    </nav>-->
 
     <div class="jumbotron jumbotron-fluid" style="height: 100vh; background-color:rgb(255, 255, 255); margin-bottom:0px;">
       <div class="container">
           <div class="row">
             <div class="col">
 
-              <h1 class="display-4">Hey there! <img src="Images/wave.png" width="50" height="50" alt="" loading="lazy"></h1>
+              <h1 class="display-4 text-center">Hey there! <img src="Images/wave.png" width="50" height="50" alt="" loading="lazy"></h1>
 
 
-                <h1 class="display-4">I'm Shimona.</h1>
-                <p class="lead">Welcome to my space.</p>
+                <h1 class="display-4  text-center">I'm Shimona.</h1>
+                <p class="lead  text-center">Welcome to my space.</p>
+                <br><hr><br>
+                <ul>
+                    <a class="nav-link  text-center" href="#projects" style="color:rgb(16, 16, 16);">Projects</a>
+                    <a class="nav-link  text-center" href="#journey" style="color:rgb(16, 16, 16);">My Journey</a>
+                    <a class="nav-link text-center" href="#tech" style="color:rgb(16, 16, 16);">Technical Repertoire</a>
+                    <a class="nav-link text-center" href="#about" style="color:rgb(16, 16, 16);">More About Me</a>
+                </ul>
             </div>
             <div class="col">
               <img src="Images/Emoji_crop.png" class="img-responsive" alt="" loading="lazy" style="padding-top:100px;padding-left:100px;">
@@ -35,13 +43,13 @@
     </div>
 
     <div class="jumbotron jumbotron-fluid" id="projects" style="background-color:rgb(18, 18, 18); margin-bottom:0px;">
-        <div class="container" style="color:rgb(59, 229, 245);">
+        <div class="container" style="color:rgb(132, 201, 251);">
             <h1 class="display-5">Projects</h1>
             <br>
             <br>
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="card slideanim" style="background-color:rgb(24, 24, 24); margin-bottom:50px;">
+                    <div class="card slideanim" style="background-color:rgb(39, 39, 39); margin-bottom:50px;">
                         <div class="card-body hvr-bob">
                             <h5 class="card-title">Remote Weather Assistant using LoRa Network
                                 <a href="https://github.com/shimonaprabhu/LoRaNode" target="_blank" data-toggle="tooltip" data-placement="top" title="Fork the LoRa Node code">
@@ -171,33 +179,6 @@
 
     <ul class="timeline">
 
-<!--        <li>-->
-<!--          <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>-->
-<!--          <div class="timeline-panel slideanim">-->
-<!--            <div class="timeline-heading">-->
-<!--              <h4 class="timeline-title">Network Consulting Engineer, Cisco</h4>-->
-<!--              <br>-->
-<!--                  <img src="Images/Cisco_big.png" class="img-fluid rounded mx-auto d-block" alt="" loading="lazy">-->
-<!--                <div class="text-center">-->
-<!--                <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo" >Learn more</button>-->
-<!--                </div>-->
-<!--                <div id="demo" class="collapse">-->
-<!--                <p class="text-muted">As a Consulting Engineer, I am continually engaged with my customers to help optimize their networks. A core part of this is risk analysis and proactive health checks to ensure that the customer's networks don't run into unforeseen scenarios.-->
-<!--                  <br><br>-->
-<!--                  My customers comprise of a mixed bag - Akamai, AXA, Swift, Etisalat and DU. In that capacity, I am a part of diverse teams located all over the world.-->
-<!--                  <br><br>-->
-<!--                  I am also involved in efforts to develop internal tools.-->
-<!--                  TOP using Angular and Django used by customers and engineers to track project delivery.-->
-<!--                  BRAIN Tool using Python, HTML, JS and Nginx to optimise backlog data.-->
-
-<!--                  <br><br>-->
-<!--                  My keen interest in Cybersecurity has fostered a sense of voracious reading and learning and I continue to explore this field.-->
-<!--              </p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </li>-->
-
         <li>
             <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
           <div class="timeline-panel slideanim">
@@ -282,12 +263,101 @@
         </div>
     </div>
 
-<div class="jumbotron jumbotron-fluid" style=" background-color:rgb(16, 16, 16); margin-bottom:0px;">
-      <div class="container">
+    <div class="jumbotron jumbotron-fluid" id="tech" style="background-color:rgb(18, 18, 18); margin-bottom:0px;">
+        <div class="container" style="color:rgb(255, 255, 255);">
+            <h1 class="display-5">Technical Repertoire</h1>
+            <br><br><br>
+            <ul class="grid_horizontal">
+                <li class="slideanim">
+                 <img src="Images/java.png" alt="" style="height:50px; width:50px;  display: block; margin: 0 auto;" class="image img-responsive float-center">
+                    <p class="text-center">Java</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/python.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">Python</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/c.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">C</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/c2.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">C++</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/matlab.jpg" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">Matlab</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/angular.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">Angular</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/html.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">HTML</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/css.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">CSS</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/php.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">PHP</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/dj.png" alt="" style="height:50px; width:75px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">Django</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/js.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">JS</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/jquery.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">JQuery</p>
+                </li>
 
-          </div>
-      </div>
+                <li class="slideanim">
+                 <img src="Images/arduino.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">Arduino</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/raspberry_pi.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">RaspberryPi</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/open.png" alt="" style="height:50px; width:75px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">OpenGL</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/windows.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">Windows</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/ubuntu.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">Ubuntu</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/mono.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">MongoDB</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/mysql.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">MySQL</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/sqlite.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">SQLite</p>
+                </li>
+                <li class="slideanim">
+                 <img src="Images/git.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                    <p class="text-center">Git</p>
+                </li>
+            </ul>
+
+        </div>
     </div>
+
 
     <div class="jumbotron jumbotron-fluid" id="about"  style=" background-color:rgb(255, 255, 255); margin-bottom:0px;">
       <div class="container" >
@@ -296,7 +366,7 @@
           <br>
 
 
-          <div class="container text-center my-3">
+          <div class="container text-center my-3 slideanim">
 
             <div class="row mx-auto my-auto">
                 <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">

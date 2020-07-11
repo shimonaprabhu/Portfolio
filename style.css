@@ -319,3 +319,27 @@ padding-left:90px;
 display:block;
 list-style-type:none;
 }
+
+/* Horizontal Grid */
+.grid_horizontal{
+align:center;
+}
+
+.grid_horizontal li {
+	display:inline-block;
+	list-style-type:none;
+
+	list-style-position:inside;
+    margin-right:50px;
+    margin-bottom:50px;
+    margin-left:50px;
+
+}
+
+@media screen and (min-width: 20em) {
+
+.grid_horizontal li {
+    width: 10%;
+  }
+
+}
