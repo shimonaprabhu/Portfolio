@@ -273,12 +273,15 @@ padding-left:90px;
   transform: translateX(0);
 }
 
+/* Fade cards */
+
+
 .container_outer {
   position: relative;
 
 }
 
-.image_in {
+.image {
   display: block;
   width: 100%;
   height: auto;
@@ -299,7 +302,7 @@ padding-left:90px;
   opacity: 1;
 }
 
-.text_out {
+.text {
    position:relative;
    width:100%;
    height:100%;
@@ -308,4 +311,11 @@ padding-left:90px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+/*unordered list*/
+
+.list-vertical{
+display:block;
+list-style-type:none;
 }
