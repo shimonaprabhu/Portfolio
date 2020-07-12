@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ShimPrab</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
@@ -9,11 +10,15 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
 </head>
-<body>
+<body >
 
 
-    <div class="jumbotron jumbotron-fluid" style="height: 100vh; background-color:rgb(255, 255, 255); margin-bottom:0px;">
+    <div class="jumbotron jumbotron-fluid" style="background-color:rgb(255, 255, 255); margin-bottom:0px;">
       <div class="container">
           <div class="row">
             <div class="col">
@@ -22,17 +27,18 @@
 
 
                 <h1 class="display-4  text-center">I'm Shimona.</h1>
-                <p class="lead  text-center">Welcome to my space.</p>
+                <p class="lead text-center">Welcome to my space.</p>
                 <br><hr><br>
                 <ul>
                     <a class="nav-link  text-center" href="#projects" style="color:rgb(16, 16, 16);">Projects</a>
                     <a class="nav-link  text-center" href="#journey" style="color:rgb(16, 16, 16);">My Journey</a>
                     <a class="nav-link text-center" href="#tech" style="color:rgb(16, 16, 16);">Technical Repertoire</a>
                     <a class="nav-link text-center" href="#about" style="color:rgb(16, 16, 16);">More About Me</a>
+                    <a class="nav-link text-center" href="resume.pdf" style="color:rgb(16, 16, 16);" download="resume">Resume</a>
                 </ul>
             </div>
             <div class="col">
-              <img src="Images/IMG.png" class="img-fluid" alt="" loading="lazy" width="550" height="600" style="padding-top:125px;padding-left:50px; overflow:hidden;">
+              <img src="Images/IMG.png" class="img-fluid" alt="" loading="lazy" width="550" height="600" style="padding-top:100px;padding-left:100px; overflow:hidden;">
             </div>
           </div>
       </div>
@@ -40,28 +46,30 @@
 
     <div class="jumbotron jumbotron-fluid" id="projects" style="background-color:rgb(18, 18, 18); margin-bottom:0px;">
         <div class="container" style="color:rgb(132, 201, 251);">
-            <h1 class="display-5">Projects</h1>
+            <h1 class="display-4">Projects</h1>
             <br>
             <br>
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="card slideanim" style="background-color:rgb(39, 39, 39); margin-bottom:50px;">
+                    <div class="card slideanim" style="background-color:rgb(24, 24, 24); margin-bottom:50px; border-radius:20px;">
                         <div class="card-body hvr-bob">
-                            <h5 class="card-title">Remote Weather Assistant using LoRa Network
+                            <h5 class="card-title" style="font-weight: 300;font-size:24px;">Remote Weather Assistant - LoRa Network
                                 <a href="https://github.com/shimonaprabhu/LoRaNode" target="_blank" data-toggle="tooltip" data-placement="top" title="Fork the LoRa Node code">
                                     <img src="Images/Fork.png" class="rounded float-right" width="30" height="30" alt="" loading="lazy">
                                 </a>
                                 <a href="https://github.com/shimonaprabhu/LoRaGateway" target="_blank" data-toggle="tooltip" data-placement="top" title="Fork the LoRa Gateway code">
                                     <img src="Images/Fork.png" class="rounded float-right" width="30" height="30" alt="" loading="lazy">
                                 </a>
-<!--                                <a class="nav-item nav-link" href="https://ieeepesitsouth.gq/source/20172018execom.html" target="_blank"-->
-<!--                        data-toggle="tooltip" data-placement="top" title="Learn more">-->
-<!--                        <i class="fas fa-external-link-alt" style="color:black;"></i>-->
-<!--                  </a>-->
+
                             </h5>
                             <br>
-                            <p class="card-text">A bare bones LoRa network, which demonstrates the architecture of a LoRa deployment including nodes, gateways and the network server. To extend the functionality, the network is used to sense vital weather data for visualization.</p>
-                            <ul class="list-horizontal font-weight-light">
+                            <p class="card-text font-weight-light" style="color:rgb(255, 255, 255);">A bare bones LoRa network, which demonstrates the architecture of a LoRa deployment including nodes, gateways and the network server. To extend the functionality, the network is used to sense vital weather data for visualization. The findings and research is published as well.
+                            <a class="nav-item nav-link" href="https://zenodo.org/record/3490390" target="_blank"
+                                    data-toggle="tooltip" data-placement="top" title="Learn more" style="display:inline-block; padding:0px; margin-left:10px;">
+                                    <i class="fa fa-external-link" aria-hidden="true" style="color:rgb(255, 255, 255);"></i>
+                              </a>
+                             </p>
+                            <ul class="list-horizontal font-weight-light" >
                                 <li>C++</li>
                                 <li>C</li>
                                 <li>RaspberryPi</li>
@@ -74,15 +82,15 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <div class="card slideanim" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
+                    <div class="card slideanim" style="background-color:rgb(24, 24, 24); margin-bottom:50px; border-radius:20px;">
                         <div class="card-body hvr-bob">
-                            <h5 class="card-title">E-Commerce Website
+                            <h5 class="card-title" style="font-weight: 300;font-size:24px;">E-Commerce Website
                                 <a href="https://github.com/shimonaprabhu/phpecommerce" target="_blank" data-toggle="tooltip" data-placement="top" title="Fork the code">
                                     <img src="Images/Fork.png" class="rounded float-right" width="30" height="30" alt="" loading="lazy">
                                 </a>
                             </h5>
                             <br>
-                            <p class="card-text">A full stack application to enable end users to leverage the functionality that any E-commerce website would offer.
+                            <p class="card-text font-weight-light" style="color:rgb(255, 255, 255);">A full stack application to enable end users to leverage the functionality that any E-commerce website would offer.
                             <br><br><br>
                             <ul class="list-horizontal font-weight-light">
                                 <li>HTML</li>
@@ -100,15 +108,15 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <div class="card slideanim" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
+                    <div class="card slideanim" style="background-color:rgb(24, 24, 24); margin-bottom:50px; border-radius:20px;">
                         <div class="card-body hvr-bob">
-                            <h5 class="card-title">Plagiarism detector
+                            <h5 class="card-title" style="font-weight: 300;font-size:24px;">Plagiarism detector
                                 <a href="https://github.com/shimonaprabhu/fs" target="_blank" data-toggle="tooltip" data-placement="top" title="Fork the code">
                                     <img src="Images/Fork.png" class="rounded float-right" width="30" height="30" alt="" loading="lazy">
                                 </a>
                             </h5>
                             <br>
-                            <p class="card-text">The application detects duplicate content by hashing file contents. This functionality can also be used to maintain a clean workspace by finding duplicates of a file and remediating. Duplicate files consume space and pose organizational challenges for users.
+                            <p class="card-text font-weight-light" style="color:rgb(255, 255, 255);">The application detects duplicate content by hashing file contents. This functionality can also be used to maintain a clean workspace by finding duplicates of a file and remediating. Duplicate files consume space and pose organizational challenges for users.
                             <ul class="list-horizontal font-weight-light">
                                 <li>Python</li>
                             <img src="Images/folder.png" class="rounded float-right" width="75" height="75" alt="" loading="lazy">
@@ -120,15 +128,15 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <div class="card slideanim" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
+                    <div class="card slideanim" style="background-color:rgb(24, 24, 24); margin-bottom:50px; border-radius:20px;">
                         <div class="card-body hvr-bob">
-                            <h5 class="card-title">Attendance Management Portal
+                            <h5 class="card-title" style="font-weight: 300;font-size:24px;">Attendance Management Portal
                                 <a href="https://github.com/shimonaprabhu/AttendancePortal" target="_blank" data-toggle="tooltip" data-placement="top" title="Fork the code">
                                     <img src="Images/Fork.png" class="rounded float-right" width="30" height="30" alt="" loading="lazy">
                                 </a>
                             </h5>
                             <br>
-                            <p class="card-text">A web application to help the college automate and centralize their daily attendance management activities. Equipped with a student and faculty dashboard, the application enable both stakeholders to manage attendance data.
+                            <p class="card-text font-weight-light" style="color:rgb(255, 255, 255);">A web application to help the college automate and centralize their daily attendance management activities. Equipped with a student and faculty dashboard, the application enable both stakeholders to manage attendance data.
                             <ul class="list-horizontal font-weight-light">
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -146,15 +154,15 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <div class="card slideanim" style="background-color:rgb(16, 16, 16); margin-bottom:50px;">
+                    <div class="card slideanim" style="background-color:rgb(24, 24, 24); margin-bottom:50px; border-radius:20px;">
                         <div class="card-body hvr-bob">
-                            <h5 class="card-title">Miscellaneous
+                            <h5 class="card-title" style="font-weight: 300; font-size:24px;">Miscellaneous
                                 <a href="https://github.com/shimonaprabhu" target="_blank" data-toggle="tooltip" data-placement="top" title="Fork the code">
                                     <img src="Images/Fork.png" class="rounded float-right" width="30" height="30" alt="" loading="lazy">
                                 </a>
                             </h5>
                             <br>
-                            <p class="card-text">Hobby projects like Web Activity Tracker (analyse time management of end users on browsers), Banking Software (real time bank software simulation) and Twitter Sentiment Analysis (model tone of tweets).
+                            <p class="card-text font-weight-light" style="color:rgb(255, 255, 255);">Hobby projects like Web Activity Tracker (analyse time management of end users on browsers), Banking Software (real time bank software simulation) and Twitter Sentiment Analysis (model tone of tweets).
                             <br><br>
                             <ul class="list-horizontal font-weight-light">
                                 <li>Java</li>
@@ -174,8 +182,9 @@
         <div class="container">
 
     <div class="page-header">
-        <h1 id="timeline">My Journey</h1>
+        <h1 id="timeline" class="display-4">My Journey</h1>
     </div>
+            <br><br>
 
     <ul class="timeline">
 
@@ -241,10 +250,10 @@
                   IEEE PESIT-BSC Student Branch provides an environment to foster learning and developing real word skills. In keeping with these principles, events targeted towards various skill sets and domains are organized. It is devoted to its aim of instilling a scientific temperament in the student community whilst contributing towards the greater good of the global engineering community.
                   <br><br>
                   In my tenure as execom, events such as Kalpana (in association with WiE - Woman in Engineering), IoT workshops, IEEE Xtreme challenge, and others were organized for a wide audience. Not only was I able to contribute to the scientific community but also take on a leadership role.
-                  <!--<a class="nav-item nav-link" href="https://ieeepesitsouth.gq/source/20172018execom.html" target="_blank"
-                        data-toggle="tooltip" data-placement="top" title="Learn more">
-                        <i class="fas fa-external-link-alt" style="color:black;"></i>
-                  </a>-->
+                  <a class="nav-item nav-link" href="https://ieeepesitsouth.gq/source/20172018execom.html" target="_blank"
+                        data-toggle="tooltip" data-placement="top" title="Learn more" style="display:inline-block; padding:0px; margin-left:10px;">
+                        <i class="fa fa-external-link" aria-hidden="true" style="color:black;"></i>
+                  </a>
               </p>
             </div>
           </div>
@@ -270,92 +279,92 @@
 
     <div class="jumbotron jumbotron-fluid" id="tech" style="background-color:rgb(18, 18, 18); margin-bottom:0px;">
         <div class="container" style="color:rgb(255, 255, 255);">
-            <h1 class="display-5">Technical Repertoire</h1>
+            <h1 class="display-4" style="color:rgb(132, 201, 251);">Technical Repertoire</h1>
             <br><br><br>
             <ul class="grid_horizontal">
-                <li class="slideanim">
-                 <img src="Images/java.png" alt="" style="height:50px; width:50px;  display: block; margin: 0 auto;" class="image img-responsive float-center">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/java.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive float-center">
                     <p class="text-center">Java</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/python.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/python.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">Python</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/c.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/c.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">C</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/c2.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/c2.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">C++</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/matlab.jpg" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/matlab.jpg" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">Matlab</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/angular.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/angular.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">Angular</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/HTML.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/HTML.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">HTML</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/css.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/css.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">CSS</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/php.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/php.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">PHP</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/dj.png" alt="" style="height:50px; width:75px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/dj.png" alt="" style="height:70px; width:75px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">Django</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/js.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/js.png" alt="" style="height:60px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">JS</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/jquery.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/jquery.png" alt="" style="height:60px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">JQuery</p>
                 </li>
 
-                <li class="slideanim">
-                 <img src="Images/arduino.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/arduino.png" alt="" style="height:60px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">Arduino</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/raspberry_pi.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/raspberry_pi.png" alt="" style="height:60px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">RaspberryPi</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/open.png" alt="" style="height:50px; width:75px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/open.png" alt="" style="height:60px; width:75px; padding-bottom:10px; padding-top:10px;  display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">OpenGL</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/windows.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/windows.png" alt="" style="height:60px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">Windows</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/ubuntu.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/ubuntu.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">Ubuntu</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/mono.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/mono.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">MongoDB</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/mysql.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/mysql.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">MySQL</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/sqlite.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/sqlite.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">SQLite</p>
                 </li>
-                <li class="slideanim">
-                 <img src="Images/git.png" alt="" style="height:50px; width:50px; display: block; margin: 0 auto;" class="image img-responsive">
+                <li class="slideanim" style="background-color:rgb(24, 24, 24); border-radius:10px;">
+                 <img src="Images/git.png" alt="" style="height:70px; width:50px; padding-bottom:10px; padding-top:10px; display: block; margin: 0 auto;" class="image img-responsive">
                     <p class="text-center">Git</p>
                 </li>
             </ul>
@@ -378,13 +387,13 @@
                     <div class="carousel-inner w-100" role="listbox" >
                         <div class="carousel-item active">
                             <div class="col-md-4">
-                                <div class="card card-body" style="height:400px; border: none;">
+                                <div class="card card-body" style="height:500px; ">
                                     <div class="container_outer">
-                                      <img src="Images/certificate.png" alt="" style="height:150px; width:150px; margin: auto; margin-top:100px;" class="image img-responsive">
+                                      <img src="Images/certificate.png" alt="" style="height:150px; width:150px; margin: auto; margin-top:150px;" class="image img-responsive">
                                       <div class="overlay">
                                         <div class="text">
-                                            <ul class="list-vertical font-weight-light" style="text-align:center;">
-                                                <li>Certifications</li>
+                                            <ul class="list-vertical" style="text-align:center;">
+                                                <li style="font-size:24px;">Certifications</li>
                                                 <hr>
                                                 <li>CCNP - Routing and Switching</li>
                                                 <br>
@@ -400,13 +409,13 @@
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-4">
-                                <div class="card card-body" style="height:400px; border: none;">
+                                <div class="card card-body" style="height:500px;">
                                     <div class="container_outer">
-                                      <img src="Images/award.png" alt="" style="height:150px; width:150px; margin: auto; margin-top:100px;" class="image img-responsive">
+                                      <img src="Images/award.png" alt="" style="height:150px; width:150px; margin: auto; margin-top:150px;" class="image img-responsive">
                                       <div class="overlay">
                                         <div class="text">
-                                            <ul class="list-vertical font-weight-light" style="text-align:center;">
-                                                <li>Honors and Awards</li>
+                                            <ul class="list-vertical" style="text-align:center;">
+                                                <li style="font-size:24px;">Honors and Awards</li>
                                                 <hr>
                                                 <li>You Inspire 3 for TOP Tool, Cisco</li>
                                                 <br>
@@ -428,13 +437,13 @@
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-4">
-                                <div class="card card-body" style="height:400px; border: none;">
+                                <div class="card card-body" style="height:500px; ">
                                     <div class="container_outer">
-                                      <img src="Images/education.png" alt="" style="height:150px; width:150px; margin: auto; margin-top:100px;" class="image img-responsive">
+                                      <img src="Images/education.png" alt="" style="height:150px; width:150px; margin: auto; margin-top:150px;" class="image img-responsive">
                                       <div class="overlay">
                                         <div class="text">
-                                            <ul class="list-vertical font-weight-light" style="text-align:center;">
-                                                <li>Education</li>
+                                            <ul class="list-vertical " style="text-align:center;">
+                                                <li style="font-size:24px;">Education</li>
                                                 <hr>
                                                 <li>B.E., Information Science - PESIT</li>
                                                 <br>
@@ -450,13 +459,13 @@
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-4">
-                                <div class="card card-body" style="height:400px; border: none;">
+                                <div class="card card-body" style="height:500px; ">
                                     <div class="container_outer">
-                                      <img src="Images/competition.png" alt="" style="height:150px; width:150px; margin: auto; margin-top:100px;" class="image img-responsive">
+                                      <img src="Images/competition.png" alt="" style="height:150px; width:150px; margin: auto; margin-top:150px;" class="image img-responsive">
                                       <div class="overlay">
                                         <div class="text">
-                                            <ul class="list-vertical font-weight-light" style="text-align:center;">
-                                                <li>Competitions</li>
+                                            <ul class="list-vertical" style="text-align:center;">
+                                                <li style="font-size:24px;">Competitions</li>
                                                 <hr>
                                                 <li>Winner of SANS CyberStart Challenge</li>
                                                 <br>
@@ -474,13 +483,13 @@
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-4">
-                                <div class="card card-body" style="height:400px; border: none;">
+                                <div class="card card-body" style="height:500px; ">
                                     <div class="container_outer">
-                                      <img src="Images/extra.png" alt=""  style="height:200px; width:200px; margin: auto; margin-top:75px;" class="image img-responsive">
+                                      <img src="Images/extra.png" alt=""  style="height:200px; width:200px; margin: auto; margin-top:125px;" class="image img-responsive">
                                       <div class="overlay">
                                         <div class="text">
-                                            <ul class="list-vertical font-weight-light" style="text-align:center;">
-                                                <li>Co-curricular Activities</li>
+                                            <ul class="list-vertical" style="text-align:center;">
+                                                <li style="font-size:24px;">Co-curricular Activities</li>
                                                 <hr>
                                                 <li>Volunteer, GiftAbled and eVidyaloka</li>
                                                 <br>
@@ -515,15 +524,16 @@
       </div>
     </div>
 
-<nav class="navbar navbar-expand-sm" style=" box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);">
-        <p class="font-weight-light" style="margin-top:10px;">
+<nav class="navbar navbar-expand-sm navbar-expand-lg" style=" box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);">
+    <p class="font-weight-light" style="margin-top:10px;">
         Personal portfolio by Shimona, built with <img src="Images/Vanilla.png" width="20" height="30" alt="" loading="lazy"> JS.
       </p>
-        <ul class="navbar-nav ml-auto">
+
+        <ul class="navbar-nav ml-auto" >
             <li class="nav-item">
                 <a class="nav-item nav-link active" href="https://github.com/shimonaprabhu" target="_blank"
                         data-toggle="tooltip" data-placement="top" title="Find me on GitHub!">
-                        <i class="fa fa-github" style="font-size:24px;color: #1e272e;"></i>external-link-alt
+                        <i class="fa fa-github" style="font-size:24px;color: #1e272e;"></i>
                     </a>
             </li>
             <li class="nav-item">
