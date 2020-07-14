@@ -343,3 +343,11 @@ align:center;
   }
 
 }
+
+/* button collapse */
+
+
+.collap_btn:focus, .collap_btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
